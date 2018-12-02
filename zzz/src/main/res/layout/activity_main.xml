@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="周考" />
+
+    <Button
+        android:id="@+id/button_turntable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转盘" />
+
+    <Button
+        android:id="@+id/button_sector_graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="饼图" />
+
+    <Button
+        android:id="@+id/button_switch_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwitchButton" />
+
+    <Button
+        android:id="@+id/button_random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="随机数" />
+
+    <Button
+        android:id="@+id/button_water_fall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="瀑布流" />
+
+    <Button
+        android:id="@+id/scroll_and_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scroll和ListView冲突" />
+
+</LinearLayout>

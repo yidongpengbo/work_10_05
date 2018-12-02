@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.example.weekboss.TitleBarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        ></com.example.weekboss.TitleBarView>
+
+    <com.example.weekboss.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索记录"
+        android:background="@color/colorAccent"
+        />
+
+    <com.example.weekboss.WeekFlowLayout
+        android:id="@+id/flow_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.weekboss.WeekFlowLayout>
+
+    <com.example.weekboss.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"
+        android:background="@color/colorAccent"
+        />
+    <com.example.weekboss.WeekFlowLayout
+        android:id="@+id/flow_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.weekboss.WeekFlowLayout>
+</LinearLayout>
